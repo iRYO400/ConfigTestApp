@@ -1,5 +1,5 @@
 
-package madiyar.almaty.configtestapp.model;
+package workshop.akbolatss.configtestapp.model;
 
 
 import com.google.gson.annotations.SerializedName;
@@ -21,6 +21,8 @@ public class ServiceCategory {
     private String mTitle;
     @SerializedName("unreadResponses")
     private Long mUnreadResponses;
+
+    private boolean isSelected;
 
     public String getCode() {
         return mCode;
@@ -78,4 +80,11 @@ public class ServiceCategory {
         mUnreadResponses = unreadResponses;
     }
 
+    public boolean isSelected() {
+        return isSelected;
+    }
+
+    public void setSelected(boolean selected) {
+        isSelected = selected;
+    }
 }

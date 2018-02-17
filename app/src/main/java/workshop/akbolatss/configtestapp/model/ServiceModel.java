@@ -1,5 +1,5 @@
 
-package madiyar.almaty.configtestapp.model;
+package workshop.akbolatss.configtestapp.model;
 
 import java.util.List;
 import com.google.gson.annotations.SerializedName;

@@ -1,4 +1,4 @@
-package madiyar.almaty.configtestapp;
+package workshop.akbolatss.configtestapp;
 
 import org.junit.Test;
 

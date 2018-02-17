@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="madiyar.almaty.configtestapp">
+    package="workshop.akbolatss.configtestapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,15 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="workshop.akbolatss.configtestapp.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MarksActivity" />
-        <activity android:name=".CategoriesActivity"></activity>
+        <activity android:name="workshop.akbolatss.configtestapp.MarksActivity" />
+        <activity android:name="workshop.akbolatss.configtestapp.CategoriesActivity"></activity>
     </application>
 
 </manifest>

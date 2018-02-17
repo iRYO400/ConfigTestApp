@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ConfigTestApp</string>
+    <string name="hint_search_mark">Поиск марки</string>
+    <string name="hint_search_service">Поиск сервиса</string>
 </resources>
